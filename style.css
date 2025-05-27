@@ -1,0 +1,47 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.hero {
+  background-color: #1f2937;
+}
+.navBar {
+  font-size: 24px;
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+li {
+  display: inline;
+}
+
+/* .navHead,
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+} */
+
+a,
+p {
+  color: #e5e7eb;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.heroContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
